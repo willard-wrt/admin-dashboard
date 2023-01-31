@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
 :root {
 --background-light: #e5e5e5;
---text-light: ##525252;   
+--text-light: #525252;   
 }
 
 *{
@@ -30,6 +33,12 @@ height: 1px;
     
 text-decoration: none;
 color: var(--text-light);
+background-size: 20px 20px;
+background-position: left;
+background-repeat: no-repeat;
+padding-left: 30px;
+font-family: 'Rubik', sans-serif;
+font-size: 18px;
 }
 
 .sidebar a:hover {
@@ -44,4 +53,43 @@ grid-auto-rows: max-content;
 display: grid;
 row-gap: 25px;
 padding: 30px;
+}
+
+#dash-title {
+background-image: url(/imgs/dashboard.png);
+background-size: 28px 28px;
+background-position: left;
+background-repeat: no-repeat;
+font-family: 'Rubik', sans-serif;
+padding-left: 35px;
+font-size: 22px; 
+font-weight: 400;
+}
+
+#dashboard {
+background-image: url(/imgs/dashboard.png);
+}
+#home {
+background-image: url(/imgs/home.png);
+}
+#profile {
+background-image: url(/imgs/profile.png);
+}
+#messages {
+background-image: url(/imgs/messages.png);
+}
+#tasks {
+background-image: url(/imgs/tasks.png);
+}
+#communities {
+background-image: url(/imgs/communities.png);
+}
+#settings {
+background-image: url(/imgs/settings2.png);
+}
+#support {
+background-image: url(/imgs/support.png);
+}
+#privacy {
+background-image: url(/imgs/privacy.png);
 }
