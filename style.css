@@ -20,7 +20,7 @@ font-family: 'Rubik', sans-serif;
 .page-grid {
    
 display: grid;
-grid-template: max-content calc(100vh) / max-content minmax(600px, 1fr);
+grid-template: max-content 100vh / max-content minmax(600px, 1fr);
 gap: 20px;
 
 
@@ -182,4 +182,30 @@ background-image: url(/imgs/search.png);
 background-repeat: no-repeat;
 background-size: 20px 20px;
 background-position: 10px center;
+}
+
+.maincontent {
+display: grid;    
+grid-template-columns: 1fr 300px;
+gap: 20px;   
+}
+
+.project {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+grid-auto-rows: max-content;
+gap: 5px;   
+}
+
+.project-title, .news-title {
+color: #525252;    
+font-size: 24px;
+margin: 20px;
+grid-column: 1 / -1;    
+}
+
+.project-card {
+background-color: white;
+padding: 20px;
+height: 200px;   
 }
