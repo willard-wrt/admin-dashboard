@@ -73,7 +73,7 @@ padding: 30px;
 }
 
 #dash-title {
-background-image: url(/imgs/dashboard.png);
+background-image: url(imgs/dashboard.png);
 background-size: 28px 28px;
 background-position: left;
 background-repeat: no-repeat;
@@ -83,31 +83,31 @@ font-weight: 400;
 }
 
 #dashboard {
-background-image: url(/imgs/dashboard.png);
+background-image: url(imgs/dashboard.png);
 }
 #home {
-background-image: url(/imgs/home.png);
+background-image: url(imgs/home.png);
 }
 #profile {
-background-image: url(/imgs/profile.png);
+background-image: url(imgs/profile.png);
 }
 #messages {
-background-image: url(/imgs/messages.png);
+background-image: url(imgs/messages.png);
 }
 #tasks {
-background-image: url(/imgs/tasks.png);
+background-image: url(imgs/tasks.png);
 }
 #communities {
-background-image: url(/imgs/communities.png);
+background-image: url(imgs/communities.png);
 }
 #settings {
-background-image: url(/imgs/settings2.png);
+background-image: url(imgs/settings2.png);
 }
 #support {
-background-image: url(/imgs/support.png);
+background-image: url(imgs/support.png);
 }
 #privacy {
-background-image: url(/imgs/privacy.png);
+background-image: url(imgs/privacy.png);
 }
 
 .topnav {
@@ -151,7 +151,7 @@ height: 100%;
 }
 
 .alert {
-background-image: url(/imgs/alert.png);
+background-image: url(imgs/alert.png);
 background-size: 25px 25px;   
 background-repeat: no-repeat;
 background-position: center; 
@@ -164,7 +164,7 @@ color: #6b7280;
 }
 
 .avatar-icon {
-background-image: url(/imgs/avatar.png);
+background-image: url(imgs/avatar.png);
 background-size: 40px 40px;
 background-repeat: no-repeat;   
 background-position: center;
@@ -190,7 +190,7 @@ border: none;
 border-radius: 20px;
 height: 40px;
 width: 40px;
-background-image: url(/imgs/search.png);
+background-image: url(imgs/search.png);
 background-repeat: no-repeat;
 background-size: 20px 20px;
 background-position: 10px center;
@@ -227,7 +227,7 @@ padding: 30px;
 }
 
 .card-img {
-background-image: url(/imgs/card-bg1.jpg);
+background-image: url(imgs/card-bg1.jpg);
 background-repeat: no-repeat;
 margin-bottom: 10px;
 border-radius: 5px;
@@ -252,15 +252,15 @@ background-repeat: no-repeat;
 }
 
 .star {
-background-image: url(/imgs/star.png);
+background-image: url(imgs/star.png);
 }
 
 .view {
-background-image: url(/imgs/view.png);
+background-image: url(imgs/view.png);
 }
 
 .share {
-background-image: url(/imgs/share.png);
+background-image: url(imgs/share.png);
 }
 
 .news { 
@@ -300,14 +300,14 @@ margin-top: 4px;
 }
 
 .iconone {
-background-image: url(/imgs/trending1.jpg);    
+background-image: url(imgs/trending1.jpg);    
 }
 .icontwo {
-background-image: url(/imgs/trending2.jpg);    
+background-image: url(imgs/trending2.jpg);    
 }
 .iconthree {
-background-image: url(/imgs/trending3.png);    
+background-image: url(imgs/trending3.png);    
 }
 .iconfour {
-background-image: url(/imgs/trending4.jpg);
+background-image: url(imgs/trending4.jpg);
 }
